@@ -6,7 +6,7 @@ Yeah me too. Well I thought it would be fun to make some scripts that run files 
 
 ## How do I use it?
 Quick explanation?  
-> Clone the repo (`git clone https://github.com/srepollock/template-grader ~/.templater`) to the ~/.templater file.
+Clone the repo (`git clone https://github.com/srepollock/template-grader ~/.templater`) to the ~/.templater file.
 Then set add to your .bashrc or .zshrc (or any other bash you are using) `export PATH="$HOME/.templater/bin:$PATH"`. This will create a reference path to the destination to call the commands from.
 
 That's it? Yes!
