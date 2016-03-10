@@ -6,7 +6,7 @@
 
 help() {
 	(echo "Create a CodeIgniter Model tempalte"
-	echo "Must have a name, package and an output"
+	echo "Must have a name and an output"
 	echo "Usage: [Model Name] > [Model Name].php") 1>&2
 }
 # Check
@@ -21,6 +21,7 @@ if [ $# -gt 2 ]; then
 	exit 1;
 fi
 
+USER=$(id -u -n)
 CLASSNAME=${1}
 TIME=$(date +"%x %r %Z")
 

@@ -21,6 +21,7 @@ if [ $# -gt 3 ]; then
 	exit 1;
 fi
 
+USER=$(id -u -n)
 CLASSNAME=${1}
 PACKAGE=${2}
 TIME=$(date +"%x %r %Z")
