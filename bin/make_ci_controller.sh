@@ -37,7 +37,7 @@ cat << _EOF_
 class $CLASSNAME extends CI_Controller {
     function __construct()
     {
-        // Call the Model constructor
+        // Call the Controller constructor
         parent::__construct();
     }
 }
