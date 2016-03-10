@@ -16,7 +16,7 @@ if [ "${1}" == "--help" ]; then
 	exit 0
 fi
 
-if [ $# -gt 3 ]; then
+if [ $# -lt 2 ]; then
 	help
 	exit 1;
 fi
