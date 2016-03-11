@@ -5,7 +5,7 @@
 ## Functions
 
 help() {
-	(echo "Create a CodeIgniter Model tempalte"
+	(echo "Create a CodeIgniter Model template"
 	echo "Must have a name and an output"
 	echo "Usage: [Model Name] > [Model Name].php") 1>&2
 }

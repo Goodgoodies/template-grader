@@ -5,7 +5,7 @@
 ## Functions
 
 help() {
-	(echo "Create a CodeIgniter Controller tempalte"
+	(echo "Create a CodeIgniter Controller template"
 	echo "Must have a name and an output"
 	echo "Usage: [Controller Name] > [Controller Name].php") 1>&2
 }

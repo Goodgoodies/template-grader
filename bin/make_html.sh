@@ -5,7 +5,7 @@
 ## Functions
 
 help() {
-	(echo "Create a basic HTML5 tempalte"
+	(echo "Create a basic HTML5 template"
 	echo "Must have a name and an output"
 	echo "Usage: [Title] > [output file name].html") 1>&2
 }

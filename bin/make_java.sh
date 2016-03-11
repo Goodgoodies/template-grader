@@ -5,7 +5,7 @@
 ## Functions
 
 help() {
-	(echo "Create a basic Java tempalte"
+	(echo "Create a basic Java template"
 	echo "Must have a name, package and an output"
 	echo "Usage: [Class Name] [Package name] > [output file name].java") 1>&2
 }
