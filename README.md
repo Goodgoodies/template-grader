@@ -13,3 +13,7 @@ That's it? Yes!
 
 Everything should now be ready to run, just call `make_[filetype].sh` and everything should work great!
 > See [Wiki](https://github.com/srepollock/template-grader/wiki) for the file calls.
+> Or just run `templater_help.sh` for quick instructions.
+
+## Known Issue
+Cannot make a title for the HTML page more than one word.
