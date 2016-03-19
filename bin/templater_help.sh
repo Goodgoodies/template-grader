@@ -14,7 +14,7 @@ How to use:
 Function Calls:
 ---------------
     make_html.sh            | make_java.sh
-    make_cs.sh              | 
+    make_cs.sh              | make_cs_unity.sh
     make_ci_controller.sh   | make_ci_model.sh
 
     templater_help.sh - Help file
