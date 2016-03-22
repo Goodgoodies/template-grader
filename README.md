@@ -15,7 +15,7 @@ Now set permissions to your `~/.templater/install.sh` with
 
 `chmod a+x ~/.templater/install.sh`  
 
-And fially run `~/.tempalter/install.sh`  
+And finally run `~/.tempalter/install.sh`  
 
 `~/.templater/install.sh`  
 
