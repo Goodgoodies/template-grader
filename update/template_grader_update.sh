@@ -1,6 +1,6 @@
 #!/bin/sh
 # Clear previous alias
-git config --gloabl --unset alias.template_update
+git config --global --unset alias.template_update
 # Setup an alias for the update
 git config --global alias.template_update '!git remote update -p; git merge -ff-only @{u}'
 # Echo into a new bash
