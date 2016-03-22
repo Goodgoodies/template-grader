@@ -1,6 +1,6 @@
 #!/bin/sh
 comment="# Template Grader Update Export"
-output="export PATH=\"\$HOME/.tempalter/update:\$PATH\""
+output="export PATH=\"\$HOME/.templater/update:\$PATH\""
 if [ -f ~/.zshrc ]; then
     # if ~/.zshrc is found
     if grep -Fxq "$comment" ~/.zshrc && grep -Fxq "$output" ~/.zshrc
@@ -20,4 +20,4 @@ if grep -Fxq "$comment" ~/.bashrc && grep -Fxq "$output" ~/.bashrc
         echo $comment >> ~/.bashrc
         echo $output >> ~/.bashrc
     fi
-bash -c "chmod a+x ~/.templater/update/template_update.sh"
+bash -c "chmod a+x ~/.templater/update/template_grader_update.sh"
