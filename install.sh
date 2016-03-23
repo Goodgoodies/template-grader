@@ -1,7 +1,20 @@
 #!/bin/sh
 comment="# Template Grader Export"
-output="export PATH=\"\$HOME/.templater/update:\$PATH\""
-makedir="export PATH=\"\$HOME/.templater/bin:\$PATH\""
+# Get Operating system type
+case "$OSTYPE" in
+    darwin*) output="export PATH=\"\$HOME/.templater/update:\$PATH\""
+             makedir="export PATH=\"\$HOME/.templater/bin:\$PATH\"" ;;
+             # OS X
+    linux*) output="export PATH=\"\$HOME/.templater/update:\$PATH\""
+            makedir="export PATH=\"\$HOME/.templater/bin:\$PATH\"" ;;
+            # LINUX
+    msys*) output="export PATH=\"\$HOME/.templater/update:\$PATH\""
+           makedir="export PATH=\"\$HOME/.templater/bin:\$PATH\"" ;;
+           # WINDOWS
+    *) return ;;
+esac
+
+
 if [ -f ~/.zshrc ]; then
     # if ~/.zshrc is found
     if grep -Fxq "$comment" ~/.zshrc && grep -Fxq "$output" ~/.zshrc && grep -Fxq "$makedir" ~/.zshrc
