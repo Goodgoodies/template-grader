@@ -27,4 +27,11 @@ Everything should now be ready to run, just call `make_[filetype].sh` and everyt
 > Or just run `templater_help.sh` for quick instructions.
 
 ## Known Issue
-Cannot make a title for the HTML page more than one word.
+1. Cannot make a title for the HTML page more than one word.
+2. For Windows Git Bash, you must open a text editor as administrator and add:  
+
+        if [ -f ~/.bashrc ]
+        then
+            . ~/.bashrc
+        fi
+        
